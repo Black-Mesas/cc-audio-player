@@ -7,5 +7,5 @@ if fs.exists(dir .. name) then
 end
 
 fs.makeDir(dir .. name)
-shell.execute("wget","https://raw.githubusercontent.com/Black-Mesas/cc-audio-player/src/play.lua",dir .. name .. "/play.lua")
+shell.execute("wget","https://raw.githubusercontent.com/Black-Mesas/cc-audio-player/main/src/play.lua",dir .. name .. "/play.lua")
 io.open(dir .. name .. "/songs.txt","w"):close()

@@ -1,6 +1,6 @@
 # cc-audio-player
 ## Installing
-> wget run https://raw.githubusercontent.com/Black-Mesas/cc-audio-player/src/download.lua
+> wget run https://raw.githubusercontent.com/Black-Mesas/cc-audio-player/main/src/download.lua
 
 ## Adding Songs
 The script uses the file ```songs.txt```, which must be in the
